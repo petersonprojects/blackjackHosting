@@ -1,0 +1,35 @@
+
+.col{
+
+    margin-left: 10px;
+}
+
+body{
+    background-position: left top;
+    background-image: url(../JPEG/astro.gif);
+    background-repeat: repeat;
+    background-position-x: 0px;
+    background-position-y: 0px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.z10{
+    z-index:10;
+}
+
+.z9{
+    z-index: 9;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#messages{
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+}
